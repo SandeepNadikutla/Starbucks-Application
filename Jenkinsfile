@@ -12,7 +12,7 @@ pipeline {
         }
         stage ("Git Checkout") {
             steps {
-                git branch: 'main', url: 'https://github.com/CloudDevOpsHub/Starbucks-Application.git'
+                git branch: 'main', url: 'https://github.com/SandeepNadikutla/Starbucks-Application/tree/main'
             }
         }
         stage("Install NPM Dependencies") {
